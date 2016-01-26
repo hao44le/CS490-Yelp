@@ -15,7 +15,6 @@
 		222D8A7D19CCFAE000D2DB53 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D8A7C19CCFAE000D2DB53 /* YelpClient.swift */; };
 		22AAAA991AEA0A9700A544AF /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAAA981AEA0A9700A544AF /* Business.swift */; };
 		22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */; };
-		90B718C590BD546DEFEF0D61 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3C5CF4FD317D72ABE2AAC4 /* Pods.framework */; };
 		C0D4CA401C57035800FE42BB /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA3F1C57035800FE42BB /* BusinessCell.swift */; };
 		C0D4CA541C57106700FE42BB /* CCMBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA431C57106700FE42BB /* CCMBorderView.m */; };
 		C0D4CA551C57106700FE42BB /* CCMCustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA451C57106700FE42BB /* CCMCustomAnimation.m */; };
@@ -26,6 +25,10 @@
 		C0D4CA5A1C57106700FE42BB /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA4F1C57106700FE42BB /* UIImage+ImageEffects.m */; };
 		C0D4CA5B1C57106700FE42BB /* UIImage+screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA511C57106700FE42BB /* UIImage+screenshot.m */; };
 		C0D4CA5C1C57106700FE42BB /* UIViewController+CCMPopupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA531C57106700FE42BB /* UIViewController+CCMPopupAnimation.m */; };
+		C0FE23451C57130400FCD3FD /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0FE23421C57130400FCD3FD /* ProgressHUD.bundle */; };
+		C0FE23461C57130400FCD3FD /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FE23441C57130400FCD3FD /* ProgressHUD.m */; };
+		C0FE234A1C57144C00FCD3FD /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE23491C57144C00FCD3FD /* Tool.swift */; };
+		DAE3922090EB4E19277B13FD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB157A34728CCA30ECFD5DC2 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +55,7 @@
 		22AAAA981AEA0A9700A544AF /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessesViewController.swift; sourceTree = "<group>"; };
 		97D8B2E3FFD1AF4F4A707E47 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		AA3C5CF4FD317D72ABE2AAC4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB157A34728CCA30ECFD5DC2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD540129B10DFE60E8C24E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C0D4CA3F1C57035800FE42BB /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
 		C0D4CA411C57106600FE42BB /* Yelp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yelp-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -74,6 +77,10 @@
 		C0D4CA511C57106700FE42BB /* UIImage+screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+screenshot.m"; sourceTree = "<group>"; };
 		C0D4CA521C57106700FE42BB /* UIViewController+CCMPopupAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CCMPopupAnimation.h"; sourceTree = "<group>"; };
 		C0D4CA531C57106700FE42BB /* UIViewController+CCMPopupAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CCMPopupAnimation.m"; sourceTree = "<group>"; };
+		C0FE23421C57130400FCD3FD /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		C0FE23431C57130400FCD3FD /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		C0FE23441C57130400FCD3FD /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		C0FE23491C57144C00FCD3FD /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90B718C590BD546DEFEF0D61 /* Pods.framework in Frameworks */,
+				DAE3922090EB4E19277B13FD /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +125,8 @@
 		222D8A5719CCF9F900D2DB53 /* Yelp */ = {
 			isa = PBXGroup;
 			children = (
-				C0D4CA5D1C57106B00FE42BB /* CCMPopup */,
+				C0FE23481C57142F00FCD3FD /* Helper */,
+				C0FE23411C5711EA00FCD3FD /* Library */,
 				C0D4CA3E1C57034400FE42BB /* Views */,
 				22AAAA9A1AEA0AA100A544AF /* Models */,
 				222D8A7A19CCFAAA00D2DB53 /* API */,
@@ -185,7 +193,7 @@
 		4A7CA25ACD374CA0AC966A24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA3C5CF4FD317D72ABE2AAC4 /* Pods.framework */,
+				AB157A34728CCA30ECFD5DC2 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,6 +229,33 @@
 				C0D4CA531C57106700FE42BB /* UIViewController+CCMPopupAnimation.m */,
 			);
 			name = CCMPopup;
+			sourceTree = "<group>";
+		};
+		C0FE23411C5711EA00FCD3FD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE23471C57131100FCD3FD /* ProgressHUD */,
+				C0D4CA5D1C57106B00FE42BB /* CCMPopup */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		C0FE23471C57131100FCD3FD /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE23421C57130400FCD3FD /* ProgressHUD.bundle */,
+				C0FE23431C57130400FCD3FD /* ProgressHUD.h */,
+				C0FE23441C57130400FCD3FD /* ProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		C0FE23481C57142F00FCD3FD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE23491C57144C00FCD3FD /* Tool.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 		F4A9A6AAA6A538FE245C4A17 /* Pods */ = {
@@ -317,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FE23451C57130400FCD3FD /* ProgressHUD.bundle in Resources */,
 				222D8A6019CCF9F900D2DB53 /* Main.storyboard in Resources */,
 				222D8A6519CCF9F900D2DB53 /* LaunchScreen.xib in Resources */,
 				222D8A6219CCF9F900D2DB53 /* Images.xcassets in Resources */,
@@ -388,6 +424,7 @@
 				C0D4CA401C57035800FE42BB /* BusinessCell.swift in Sources */,
 				22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */,
 				C0D4CA5C1C57106700FE42BB /* UIViewController+CCMPopupAnimation.m in Sources */,
+				C0FE234A1C57144C00FCD3FD /* Tool.swift in Sources */,
 				C0D4CA581C57106700FE42BB /* CCMPopupTransitioning.m in Sources */,
 				C0D4CA541C57106700FE42BB /* CCMBorderView.m in Sources */,
 				C0D4CA571C57106700FE42BB /* CCMPopupSegue.m in Sources */,
@@ -397,6 +434,7 @@
 				C0D4CA5A1C57106700FE42BB /* UIImage+ImageEffects.m in Sources */,
 				C0D4CA561C57106700FE42BB /* CCMPopupAnimation.m in Sources */,
 				222D8A7D19CCFAE000D2DB53 /* YelpClient.swift in Sources */,
+				C0FE23461C57130400FCD3FD /* ProgressHUD.m in Sources */,
 				222D8A5B19CCF9F900D2DB53 /* AppDelegate.swift in Sources */,
 				C0D4CA5B1C57106700FE42BB /* UIImage+screenshot.m in Sources */,
 			);
