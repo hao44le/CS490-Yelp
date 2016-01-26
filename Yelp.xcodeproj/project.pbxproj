@@ -17,6 +17,15 @@
 		22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */; };
 		90B718C590BD546DEFEF0D61 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3C5CF4FD317D72ABE2AAC4 /* Pods.framework */; };
 		C0D4CA401C57035800FE42BB /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA3F1C57035800FE42BB /* BusinessCell.swift */; };
+		C0D4CA541C57106700FE42BB /* CCMBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA431C57106700FE42BB /* CCMBorderView.m */; };
+		C0D4CA551C57106700FE42BB /* CCMCustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA451C57106700FE42BB /* CCMCustomAnimation.m */; };
+		C0D4CA561C57106700FE42BB /* CCMPopupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA471C57106700FE42BB /* CCMPopupAnimation.m */; };
+		C0D4CA571C57106700FE42BB /* CCMPopupSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA491C57106700FE42BB /* CCMPopupSegue.m */; };
+		C0D4CA581C57106700FE42BB /* CCMPopupTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA4B1C57106700FE42BB /* CCMPopupTransitioning.m */; };
+		C0D4CA591C57106700FE42BB /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA4D1C57106700FE42BB /* FXBlurView.m */; };
+		C0D4CA5A1C57106700FE42BB /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA4F1C57106700FE42BB /* UIImage+ImageEffects.m */; };
+		C0D4CA5B1C57106700FE42BB /* UIImage+screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA511C57106700FE42BB /* UIImage+screenshot.m */; };
+		C0D4CA5C1C57106700FE42BB /* UIViewController+CCMPopupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA531C57106700FE42BB /* UIViewController+CCMPopupAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +55,25 @@
 		AA3C5CF4FD317D72ABE2AAC4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD540129B10DFE60E8C24E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C0D4CA3F1C57035800FE42BB /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
+		C0D4CA411C57106600FE42BB /* Yelp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yelp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0D4CA421C57106700FE42BB /* CCMBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMBorderView.h; sourceTree = "<group>"; };
+		C0D4CA431C57106700FE42BB /* CCMBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMBorderView.m; sourceTree = "<group>"; };
+		C0D4CA441C57106700FE42BB /* CCMCustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMCustomAnimation.h; sourceTree = "<group>"; };
+		C0D4CA451C57106700FE42BB /* CCMCustomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMCustomAnimation.m; sourceTree = "<group>"; };
+		C0D4CA461C57106700FE42BB /* CCMPopupAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPopupAnimation.h; sourceTree = "<group>"; };
+		C0D4CA471C57106700FE42BB /* CCMPopupAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPopupAnimation.m; sourceTree = "<group>"; };
+		C0D4CA481C57106700FE42BB /* CCMPopupSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPopupSegue.h; sourceTree = "<group>"; };
+		C0D4CA491C57106700FE42BB /* CCMPopupSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPopupSegue.m; sourceTree = "<group>"; };
+		C0D4CA4A1C57106700FE42BB /* CCMPopupTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMPopupTransitioning.h; sourceTree = "<group>"; };
+		C0D4CA4B1C57106700FE42BB /* CCMPopupTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMPopupTransitioning.m; sourceTree = "<group>"; };
+		C0D4CA4C1C57106700FE42BB /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		C0D4CA4D1C57106700FE42BB /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		C0D4CA4E1C57106700FE42BB /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		C0D4CA4F1C57106700FE42BB /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		C0D4CA501C57106700FE42BB /* UIImage+screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+screenshot.h"; sourceTree = "<group>"; };
+		C0D4CA511C57106700FE42BB /* UIImage+screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+screenshot.m"; sourceTree = "<group>"; };
+		C0D4CA521C57106700FE42BB /* UIViewController+CCMPopupAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CCMPopupAnimation.h"; sourceTree = "<group>"; };
+		C0D4CA531C57106700FE42BB /* UIViewController+CCMPopupAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CCMPopupAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +118,7 @@
 		222D8A5719CCF9F900D2DB53 /* Yelp */ = {
 			isa = PBXGroup;
 			children = (
+				C0D4CA5D1C57106B00FE42BB /* CCMPopup */,
 				C0D4CA3E1C57034400FE42BB /* Views */,
 				22AAAA9A1AEA0AA100A544AF /* Models */,
 				222D8A7A19CCFAAA00D2DB53 /* API */,
@@ -99,6 +128,7 @@
 				222D8A6119CCF9F900D2DB53 /* Images.xcassets */,
 				222D8A6319CCF9F900D2DB53 /* LaunchScreen.xib */,
 				222D8A5819CCF9F900D2DB53 /* Supporting Files */,
+				C0D4CA411C57106600FE42BB /* Yelp-Bridging-Header.h */,
 			);
 			path = Yelp;
 			sourceTree = "<group>";
@@ -168,6 +198,31 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		C0D4CA5D1C57106B00FE42BB /* CCMPopup */ = {
+			isa = PBXGroup;
+			children = (
+				C0D4CA421C57106700FE42BB /* CCMBorderView.h */,
+				C0D4CA431C57106700FE42BB /* CCMBorderView.m */,
+				C0D4CA441C57106700FE42BB /* CCMCustomAnimation.h */,
+				C0D4CA451C57106700FE42BB /* CCMCustomAnimation.m */,
+				C0D4CA461C57106700FE42BB /* CCMPopupAnimation.h */,
+				C0D4CA471C57106700FE42BB /* CCMPopupAnimation.m */,
+				C0D4CA481C57106700FE42BB /* CCMPopupSegue.h */,
+				C0D4CA491C57106700FE42BB /* CCMPopupSegue.m */,
+				C0D4CA4A1C57106700FE42BB /* CCMPopupTransitioning.h */,
+				C0D4CA4B1C57106700FE42BB /* CCMPopupTransitioning.m */,
+				C0D4CA4C1C57106700FE42BB /* FXBlurView.h */,
+				C0D4CA4D1C57106700FE42BB /* FXBlurView.m */,
+				C0D4CA4E1C57106700FE42BB /* UIImage+ImageEffects.h */,
+				C0D4CA4F1C57106700FE42BB /* UIImage+ImageEffects.m */,
+				C0D4CA501C57106700FE42BB /* UIImage+screenshot.h */,
+				C0D4CA511C57106700FE42BB /* UIImage+screenshot.m */,
+				C0D4CA521C57106700FE42BB /* UIViewController+CCMPopupAnimation.h */,
+				C0D4CA531C57106700FE42BB /* UIViewController+CCMPopupAnimation.m */,
+			);
+			name = CCMPopup;
+			sourceTree = "<group>";
+		};
 		F4A9A6AAA6A538FE245C4A17 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,7 +280,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Timothy Lee";
 				TargetAttributes = {
@@ -332,9 +387,18 @@
 			files = (
 				C0D4CA401C57035800FE42BB /* BusinessCell.swift in Sources */,
 				22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */,
+				C0D4CA5C1C57106700FE42BB /* UIViewController+CCMPopupAnimation.m in Sources */,
+				C0D4CA581C57106700FE42BB /* CCMPopupTransitioning.m in Sources */,
+				C0D4CA541C57106700FE42BB /* CCMBorderView.m in Sources */,
+				C0D4CA571C57106700FE42BB /* CCMPopupSegue.m in Sources */,
+				C0D4CA591C57106700FE42BB /* FXBlurView.m in Sources */,
+				C0D4CA551C57106700FE42BB /* CCMCustomAnimation.m in Sources */,
 				22AAAA991AEA0A9700A544AF /* Business.swift in Sources */,
+				C0D4CA5A1C57106700FE42BB /* UIImage+ImageEffects.m in Sources */,
+				C0D4CA561C57106700FE42BB /* CCMPopupAnimation.m in Sources */,
 				222D8A7D19CCFAE000D2DB53 /* YelpClient.swift in Sources */,
 				222D8A5B19CCF9F900D2DB53 /* AppDelegate.swift in Sources */,
+				C0D4CA5B1C57106700FE42BB /* UIImage+screenshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +528,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yelp/Yelp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -479,7 +543,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yelp/Yelp-Bridging-Header.h";
 			};
 			name = Release;
 		};
