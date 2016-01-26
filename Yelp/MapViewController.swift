@@ -26,7 +26,7 @@ class MapViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDel
         mapView.mapType = MKMapType.Standard
         
         for bussiness in businessArray {
-            let annotation = scholarAnnotation(coordinate: CLLocationCoordinate2DMake(Double(bussiness.latitude!), Double(bussiness.longitude!)), title: bussiness.name!, subtitle: bussiness.name!, profilePictureUrl: bussiness.imageURL!.absoluteString)
+            let annotation = scholarAnnotation(coordinate: CLLocationCoordinate2DMake(Double(bussiness.latitude!), Double(bussiness.longitude!)), title: bussiness.name!, subtitle: bussiness.name!)
             self.qTree.insertObject(annotation)
         }
         self.reloadAnnotations()
