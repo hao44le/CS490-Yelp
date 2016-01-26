@@ -136,15 +136,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Yelp" id="t27-cl-lFq">
-                        <barButtonItem key="leftBarButtonItem" title="Filter" id="u3p-VT-bQQ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="ENx-jM-OVD">
                             <connections>
-                                <action selector="filterTouched:" destination="2xI-yr-O5N" id="ru4-Cp-iaz"/>
+                                <action selector="searchCliked:" destination="2xI-yr-O5N" id="yjn-kx-nI5"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="searchButton" destination="ENx-jM-OVD" id="YIy-MG-zZC"/>
                         <outlet property="tableView" destination="SQ2-RW-TKK" id="0K9-Df-9CX"/>
-                        <segue destination="ol0-Zs-04x" kind="custom" identifier="toPopup" customClass="CCMPopupSegue" id="uMB-x8-tyg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgb-4b-F1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -168,40 +168,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ZN-ZS-P0S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="953.60000000000002" y="338.90666666666664"/>
-        </scene>
-        <!--Menu View Controller-->
-        <scene sceneID="lOg-MN-h5e">
-            <objects>
-                <viewController storyboardIdentifier="popupController" extendedLayoutIncludesOpaqueBars="YES" id="ol0-Zs-04x" customClass="MenuViewController" customModule="Yelp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Nlt-9u-fKn"/>
-                        <viewControllerLayoutGuide type="bottom" id="dPi-ag-DDh"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="trS-dk-l9W" customClass="CCMBorderView">
-                        <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                <real key="value" value="6"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
-                    </view>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="300" height="400"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K2K-yV-PMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="ZPS-ck-DeS" userLabel="Exit" sceneMemberID="exit"/>
-                <tapGestureRecognizer id="GB4-5w-a3s">
-                    <connections>
-                        <segue destination="ZPS-ck-DeS" kind="unwind" unwindAction="didDismissSegue:" id="qh7-e0-y2b"/>
-                    </connections>
-                </tapGestureRecognizer>
-            </objects>
-            <point key="canvasLocation" x="1779" y="350"/>
         </scene>
     </scenes>
 </document>
