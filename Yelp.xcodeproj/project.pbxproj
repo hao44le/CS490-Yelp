@@ -25,6 +25,14 @@
 		C0D4CA5A1C57106700FE42BB /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA4F1C57106700FE42BB /* UIImage+ImageEffects.m */; };
 		C0D4CA5B1C57106700FE42BB /* UIImage+screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA511C57106700FE42BB /* UIImage+screenshot.m */; };
 		C0D4CA5C1C57106700FE42BB /* UIViewController+CCMPopupAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D4CA531C57106700FE42BB /* UIViewController+CCMPopupAnimation.m */; };
+		C0DCAB2C1C5722B400F7DBA6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DCAB2B1C5722B400F7DBA6 /* MapViewController.swift */; };
+		C0DCAB2E1C5722F300F7DBA6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DCAB2D1C5722F300F7DBA6 /* MapKit.framework */; };
+		C0DCAB3A1C57233100F7DBA6 /* ClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCAB301C57233100F7DBA6 /* ClusterAnnotationView.m */; };
+		C0DCAB3B1C57233100F7DBA6 /* QCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCAB321C57233100F7DBA6 /* QCluster.m */; };
+		C0DCAB3C1C57233100F7DBA6 /* QNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCAB341C57233100F7DBA6 /* QNode.m */; };
+		C0DCAB3D1C57233100F7DBA6 /* QTree.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCAB361C57233100F7DBA6 /* QTree.m */; };
+		C0DCAB3E1C57233100F7DBA6 /* QTreeGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DCAB381C57233100F7DBA6 /* QTreeGeometryUtils.m */; };
+		C0DCAB411C572DBC00F7DBA6 /* ScholarAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DCAB401C572DBC00F7DBA6 /* ScholarAnnotation.swift */; };
 		C0FE23451C57130400FCD3FD /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0FE23421C57130400FCD3FD /* ProgressHUD.bundle */; };
 		C0FE23461C57130400FCD3FD /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FE23441C57130400FCD3FD /* ProgressHUD.m */; };
 		C0FE234A1C57144C00FCD3FD /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE23491C57144C00FCD3FD /* Tool.swift */; };
@@ -77,6 +85,20 @@
 		C0D4CA511C57106700FE42BB /* UIImage+screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+screenshot.m"; sourceTree = "<group>"; };
 		C0D4CA521C57106700FE42BB /* UIViewController+CCMPopupAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CCMPopupAnimation.h"; sourceTree = "<group>"; };
 		C0D4CA531C57106700FE42BB /* UIViewController+CCMPopupAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CCMPopupAnimation.m"; sourceTree = "<group>"; };
+		C0DCAB2B1C5722B400F7DBA6 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C0DCAB2D1C5722F300F7DBA6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C0DCAB2F1C57233100F7DBA6 /* ClusterAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterAnnotationView.h; sourceTree = "<group>"; };
+		C0DCAB301C57233100F7DBA6 /* ClusterAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterAnnotationView.m; sourceTree = "<group>"; };
+		C0DCAB311C57233100F7DBA6 /* QCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCluster.h; sourceTree = "<group>"; };
+		C0DCAB321C57233100F7DBA6 /* QCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCluster.m; sourceTree = "<group>"; };
+		C0DCAB331C57233100F7DBA6 /* QNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNode.h; sourceTree = "<group>"; };
+		C0DCAB341C57233100F7DBA6 /* QNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNode.m; sourceTree = "<group>"; };
+		C0DCAB351C57233100F7DBA6 /* QTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTree.h; sourceTree = "<group>"; };
+		C0DCAB361C57233100F7DBA6 /* QTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTree.m; sourceTree = "<group>"; };
+		C0DCAB371C57233100F7DBA6 /* QTreeGeometryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTreeGeometryUtils.h; sourceTree = "<group>"; };
+		C0DCAB381C57233100F7DBA6 /* QTreeGeometryUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTreeGeometryUtils.m; sourceTree = "<group>"; };
+		C0DCAB391C57233100F7DBA6 /* QTreeInsertable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTreeInsertable.h; sourceTree = "<group>"; };
+		C0DCAB401C572DBC00F7DBA6 /* ScholarAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScholarAnnotation.swift; sourceTree = "<group>"; };
 		C0FE23421C57130400FCD3FD /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		C0FE23431C57130400FCD3FD /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		C0FE23441C57130400FCD3FD /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
@@ -88,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0DCAB2E1C5722F300F7DBA6 /* MapKit.framework in Frameworks */,
 				DAE3922090EB4E19277B13FD /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				22AAAA9B1AEA1EC300A544AF /* BusinessesViewController.swift */,
+				C0DCAB2B1C5722B400F7DBA6 /* MapViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -193,6 +217,7 @@
 		4A7CA25ACD374CA0AC966A24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0DCAB2D1C5722F300F7DBA6 /* MapKit.framework */,
 				AB157A34728CCA30ECFD5DC2 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -202,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				C0D4CA3F1C57035800FE42BB /* BusinessCell.swift */,
+				C0DCAB401C572DBC00F7DBA6 /* ScholarAnnotation.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -231,9 +257,28 @@
 			name = CCMPopup;
 			sourceTree = "<group>";
 		};
+		C0DCAB3F1C57233600F7DBA6 /* QTreeObj */ = {
+			isa = PBXGroup;
+			children = (
+				C0DCAB2F1C57233100F7DBA6 /* ClusterAnnotationView.h */,
+				C0DCAB301C57233100F7DBA6 /* ClusterAnnotationView.m */,
+				C0DCAB311C57233100F7DBA6 /* QCluster.h */,
+				C0DCAB321C57233100F7DBA6 /* QCluster.m */,
+				C0DCAB331C57233100F7DBA6 /* QNode.h */,
+				C0DCAB341C57233100F7DBA6 /* QNode.m */,
+				C0DCAB351C57233100F7DBA6 /* QTree.h */,
+				C0DCAB361C57233100F7DBA6 /* QTree.m */,
+				C0DCAB371C57233100F7DBA6 /* QTreeGeometryUtils.h */,
+				C0DCAB381C57233100F7DBA6 /* QTreeGeometryUtils.m */,
+				C0DCAB391C57233100F7DBA6 /* QTreeInsertable.h */,
+			);
+			name = QTreeObj;
+			sourceTree = "<group>";
+		};
 		C0FE23411C5711EA00FCD3FD /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				C0DCAB3F1C57233600F7DBA6 /* QTreeObj */,
 				C0FE23471C57131100FCD3FD /* ProgressHUD */,
 				C0D4CA5D1C57106B00FE42BB /* CCMPopup */,
 			);
@@ -425,18 +470,25 @@
 				22AAAA9C1AEA1EC300A544AF /* BusinessesViewController.swift in Sources */,
 				C0D4CA5C1C57106700FE42BB /* UIViewController+CCMPopupAnimation.m in Sources */,
 				C0FE234A1C57144C00FCD3FD /* Tool.swift in Sources */,
+				C0DCAB3A1C57233100F7DBA6 /* ClusterAnnotationView.m in Sources */,
 				C0D4CA581C57106700FE42BB /* CCMPopupTransitioning.m in Sources */,
+				C0DCAB3B1C57233100F7DBA6 /* QCluster.m in Sources */,
 				C0D4CA541C57106700FE42BB /* CCMBorderView.m in Sources */,
 				C0D4CA571C57106700FE42BB /* CCMPopupSegue.m in Sources */,
+				C0DCAB3C1C57233100F7DBA6 /* QNode.m in Sources */,
 				C0D4CA591C57106700FE42BB /* FXBlurView.m in Sources */,
 				C0D4CA551C57106700FE42BB /* CCMCustomAnimation.m in Sources */,
 				22AAAA991AEA0A9700A544AF /* Business.swift in Sources */,
 				C0D4CA5A1C57106700FE42BB /* UIImage+ImageEffects.m in Sources */,
 				C0D4CA561C57106700FE42BB /* CCMPopupAnimation.m in Sources */,
+				C0DCAB3E1C57233100F7DBA6 /* QTreeGeometryUtils.m in Sources */,
 				222D8A7D19CCFAE000D2DB53 /* YelpClient.swift in Sources */,
+				C0DCAB411C572DBC00F7DBA6 /* ScholarAnnotation.swift in Sources */,
 				C0FE23461C57130400FCD3FD /* ProgressHUD.m in Sources */,
 				222D8A5B19CCF9F900D2DB53 /* AppDelegate.swift in Sources */,
+				C0DCAB3D1C57233100F7DBA6 /* QTree.m in Sources */,
 				C0D4CA5B1C57106700FE42BB /* UIImage+screenshot.m in Sources */,
+				C0DCAB2C1C5722B400F7DBA6 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -46,7 +46,7 @@ class BusinessesViewController: UIViewController,UITableViewDataSource,UITableVi
     
     @IBAction func mapClicked() {
         //go to map
-        print("map")
+        self.performSegueWithIdentifier("gotoMap", sender: self)
     }
     @IBOutlet weak var tableView: UITableView!
     var businesses: NSMutableArray = []
@@ -176,35 +176,8 @@ class BusinessesViewController: UIViewController,UITableViewDataSource,UITableVi
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if segue.identifier == "toPopup"{
-            let popupSegue = segue as! CCMPopupSegue
-            
-            
-            if (self.view.bounds.size.height < 420) {
-                
-                popupSegue.destinationBounds = CGRectMake(0, 0, 300, 400)
-                //6 plus
-            } else if (self.view.bounds.size.height == 736) {
-                popupSegue.destinationBounds = CGRectMake(0, 0, (UIScreen.mainScreen().bounds.size.height-200) * 0.6, UIScreen.mainScreen().bounds.size.height-260)
-                // 6
-            } else if (self.view.bounds.size.height == 667) {
-                popupSegue.destinationBounds = CGRectMake(0, 0, (UIScreen.mainScreen().bounds.size.height-150) * 0.65, UIScreen.mainScreen().bounds.size.height-200)
-                // 5s / 5
-            } else if (self.view.bounds.size.height == 568) {
-                popupSegue.destinationBounds = CGRectMake(0, 0, (UIScreen.mainScreen().bounds.size.height-150) * 0.7, UIScreen.mainScreen().bounds.size.height-200)
-                // 4s
-            } else if (self.view.bounds.size.height == 480) {
-                popupSegue.destinationBounds = CGRectMake(0, 0, (UIScreen.mainScreen().bounds.size.height-100) * 0.76, UIScreen.mainScreen().bounds.size.height-150)
-                // ipad
-            } else {
-                popupSegue.destinationBounds = CGRectMake(0, 0, (UIScreen.mainScreen().bounds.size.height-100) * 0.7, UIScreen.mainScreen().bounds.size.height-150)
-            }
-            popupSegue.backgroundBlurRadius = 7
-            popupSegue.backgroundViewAlpha = 0.3
-            popupSegue.backgroundViewColor = UIColor.blackColor()
-            popupSegue.dismissableByTouchingBackground = true
-            
-        }
+        let dv = segue.destinationViewController as! MapViewController
+        dv.businessArray = self.businesses as AnyObject as! [Business]
         
     }
     
